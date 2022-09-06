@@ -13,4 +13,4 @@ install:
   - java -jar ./api-ci/rest//artifacts/app-mbank.jar &
 
 build_script:
-  - ./gradlew test --info  # запускаем тест, флаг --info позволяет выводить больше информации
+  - ./api-ci/rest/gradlew test --info  # запускаем тест, флаг --info позволяет выводить больше информации
